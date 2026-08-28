@@ -12,51 +12,123 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    background: #9da387;
     color: #222;
 }
+
+.name {
+    font-family: cursive;
+    color: #1b0e27;
+    
+    
+}
+
+.hero{
+    background: rgb(104, 160, 95);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
 
 
 /* Navbar */
 
 header {
-    background: #111827;
+    background: #10347d;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.navbar {
-    max-width: 1100px;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    width: 100%;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px;                         
+    padding: 20px 60px;
+    background-color: #111;
+    
+    /* Navbar entrance animation */
+    animation: navbarSlide 0.8s ease;
 }
 
+/* Logo */
 .logo {
     color: white;
     font-size: 25px;
 }
 
+/* Links container */
 .nav-links {
-    list-style: none;
-
     display: flex;
-    gap: 25px;
+    gap: 35px;
+    list-style: none;
 }
 
+/* Links */
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+
+    position: relative;
 }
 
-.nav-links a:hover {
-    color: #60a5fa;
+/* Underline */
+.nav-links a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: white;
+
+    transition: width 0.3s ease;
+}
+
+/* Hover animation */
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Logo hover */
+.logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navbar comes from top */
+@keyframes navbarSlide {
+
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
 }
 
 
@@ -121,20 +193,15 @@ header {
 /* Profile */
 
 .profile-circle {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 
     border-radius: 50%;
-
-    background: #2563eb;
-    color: white;                         
-
-    display: flex;
-    justify-content: center;
-    align-items: center;                  
-
-    font-size: 70px;
-    font-weight: bold;
+    
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
