@@ -247,7 +247,59 @@ header {
 
 .skill-card {
     
-    background-image: url(skills.jpg);
+    background-image: url(html.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-position: 50% 10%;
+
+
+
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    
+    
+
+    
+}
+
+
+.skill-cardCss {
+    
+    background-image: url(Css.jpg);
+
+    background-size: cover;
+
+    background-position: right center;
+
+    background-position: 75% 30%;
+
+
+
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+
+    
+
+}
+
+.skill-cardjavascript {
+    
+    background-image: url(javascript.jpg);
 
     background-size: cover;
 
@@ -266,6 +318,54 @@ header {
 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
+
+.skill-cardPython {
+    
+    background-image: url(pythone.jpg);
+
+    background-size: cover;
+
+    background-position: right center;
+
+    background-position: 75% 30%;
+
+
+
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.skill-cardcpp {
+    
+    background-image: url(cpp.jpg);
+
+    background-size: cover;
+
+    background-position: right center;
+
+    background-position: 75% 30%;
+
+
+
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
 
 .skill-card h3 {
     margin-bottom: 10px;
