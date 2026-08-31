@@ -249,16 +249,16 @@ header {
     
     background-image: url(html.jpg);
 
-    background-size: cover;
+    background-size: 300px 100px;
 
-    background-position: center;
+    
 
-    background-position: 50% 10%;
-
-
+    background-position: center center;
 
 
-    padding: 30px;
+
+
+    padding: 50px;
 
     text-align: center;
 
@@ -274,18 +274,18 @@ header {
 
 .skill-cardCss {
     
-    background-image: url(Css.jpg);
+    background-image: url( css\ logo.jpg);
 
-    background-size: cover;
+    background-size: contain;
 
-    background-position: right center;
+    
 
-    background-position: 75% 30%;
-
-
+    background-position: center center%;
 
 
-    padding: 30px;
+
+
+    padding: 50px;
 
     text-align: center;
 
@@ -299,18 +299,18 @@ header {
 
 .skill-cardjavascript {
     
-    background-image: url(javascript.jpg);
+    background-image: url(javascript\ logo.jpg);
 
-    background-size: cover;
+    background-size: contain;
 
-    background-position: right center;
+    background-position: center center;
 
-    background-position: 75% 30%;
-
-
+    ;
 
 
-    padding: 30px;
+
+
+    padding: 50px;
 
     text-align: center;
 
@@ -323,16 +323,16 @@ header {
     
     background-image: url(pythone.jpg);
 
-    background-size: cover;
+    background-size: contain;
 
-    background-position: right center;
+    background-position: center center;
 
-    background-position: 75% 30%;
-
-
+    
 
 
-    padding: 30px;
+
+
+    padding: 50px;
 
     text-align: center;
 
@@ -343,18 +343,18 @@ header {
 
 .skill-cardcpp {
     
-    background-image: url(cpp.jpg);
+    background-image: url(cpp\ logo.jpg);
 
-    background-size: cover;
+    background-size: contain;
 
-    background-position: right center;
+    background-position: center center;
 
-    background-position: 75% 30%;
-
-
+    
 
 
-    padding: 30px;
+
+
+    padding: 50px;
 
     text-align: center;
 
