@@ -246,12 +246,14 @@ header {
 }
 
 .skill-card {
+
+    background-color: black;
     
     background-image: url(html.jpg);
 
-    background-size: 300px 100px;
+    background-size: 150px 150px;
 
-    
+    background-repeat: no-repeat;
 
     background-position: center center;
 
@@ -266,6 +268,7 @@ header {
 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
     
+
     
 
     
@@ -273,14 +276,17 @@ header {
 
 
 .skill-cardCss {
+
+    background-color: black;
     
-    background-image: url( css\ logo.jpg);
+    background-image: url( csslogo.jpg);
 
-    background-size: contain;
+    background-size: 150px 150px;
 
-    
+    background-repeat: no-repeat;
 
-    background-position: center center%;
+    background-position: center center;
+
 
 
 
@@ -298,14 +304,14 @@ header {
 }
 
 .skill-cardjavascript {
-    
+    background-color: black;
     background-image: url(javascript\ logo.jpg);
 
-    background-size: contain;
+    background-size: 150px 150px;
 
     background-position: center center;
 
-    ;
+    background-repeat: no-repeat;
 
 
 
@@ -320,10 +326,14 @@ header {
 }
 
 .skill-cardPython {
+
+    background-color: black;
     
     background-image: url(pythone.jpg);
 
-    background-size: contain;
+    background-size: 150px 150px;
+
+    background-repeat: no-repeat;
 
     background-position: center center;
 
@@ -342,14 +352,16 @@ header {
 }
 
 .skill-cardcpp {
+    background-color: black;
     
     background-image: url(cpp\ logo.jpg);
 
-    background-size: contain;
+    background-size: 150px 150px;
 
     background-position: center center;
 
-    
+    background-repeat: no-repeat;
+
 
 
 
