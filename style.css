@@ -521,3 +521,35 @@ footer {
     line-height: 1.6;
 
 }
+
+
+.blog-container{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 25px;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.blog-card{
+    background-color: white;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s;
+
+}
+
+.blof
+
+
