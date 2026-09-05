@@ -550,6 +550,90 @@ footer {
 
 }
 
-.blof
+.blog-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.blog-image {
+    height: 180px;
+
+    background-color: #e8eefc;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.blog-image span {
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+/* Different backgrounds */
+
+.blog-image.javascript {
+    background-color: #fff3c4;
+}
+
+.blog-image.github {
+    background-color: #eeeeee;
+}
+
+
+/* Content */
+
+.blog-content {
+    padding: 25px;
+}
+
+
+/* Date */
+
+.blog-date {
+    font-size: 13px;
+
+    color: #777;
+
+    margin-bottom: 10px;
+}
+
+/* Title */
+
+.blog-content h3 {
+    font-size: 22px;
+
+    margin-bottom: 12px;
+}
+
+/* Description */
+
+.blog-content > p:not(.blog-date) {
+    color: #666;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* Link */
+
+.blog-content a {
+    text-decoration: none;
+
+    font-weight: bold;
+
+    color: #222;
+}
+
+.blog-content a:hover {
+    text-decoration: underline;
+}
 
 
